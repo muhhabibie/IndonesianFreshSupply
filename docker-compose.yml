@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  rabbitmq:
+    image: rabbitmq:3.13-management
+    container_name: rabbitmq-ifs
+    ports:
+      - "5672:5672"   # Port untuk koneksi aplikasi Spring Boot
+      - "15672:15672" # Port untuk akses Dashboard Management (browser)
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
