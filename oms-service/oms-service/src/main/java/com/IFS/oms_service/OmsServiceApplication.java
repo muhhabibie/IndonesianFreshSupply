@@ -1,4 +1,4 @@
-package com.IFS.oms_service;
+package com.ifs.oms_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

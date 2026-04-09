@@ -1,8 +1,9 @@
-package com.IFS.payment_service.consumer;
+package com.ifs.payment_service.consumer;
 
-import com.IFS.payment_service.model.Order;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Service;
+
+import com.ifs.payment_service.model.Order;
 
 @Service
 public class PaymentConsumer {

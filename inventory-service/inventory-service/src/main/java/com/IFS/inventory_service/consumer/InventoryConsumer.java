@@ -1,9 +1,9 @@
-package com.IFS.inventory_service.consumer;
+package com.ifs.inventory_service.consumer;
 
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Service;
 
-import com.IFS.inventory_service.model.Order;
+import com.ifs.inventory_service.model.Order;
 
 @Service
 public class InventoryConsumer {

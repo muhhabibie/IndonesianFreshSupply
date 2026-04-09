@@ -1,4 +1,4 @@
-package com.IFS.inventory_service.config;
+package com.ifs.inventory_service.config;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,7 +22,7 @@ public class RabbitMQConfig {
         
         // Beritahu sistem: "Jika ada label dari OMS, tolong anggap itu model milik Inventory"
         Map<String, Class<?>> idClassMapping = new HashMap<>();
-        idClassMapping.put("com.IFS.oms_service.model.Order", com.IFS.inventory_service.model.Order.class);
+        idClassMapping.put("com.IFS.oms_service.model.Order", com.ifs.inventory_service.model.Order.class);
         typeMapper.setIdClassMapping(idClassMapping);
         
         converter.setJavaTypeMapper(typeMapper);

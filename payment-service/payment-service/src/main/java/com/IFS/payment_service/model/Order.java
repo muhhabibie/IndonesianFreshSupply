@@ -1,4 +1,4 @@
-package com.IFS.payment_service.model;
+package com.ifs.payment_service.model;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

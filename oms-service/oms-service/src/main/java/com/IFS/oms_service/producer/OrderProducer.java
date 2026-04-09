@@ -1,10 +1,10 @@
-package com.IFS.oms_service.producer;
+package com.ifs.oms_service.producer;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import com.IFS.oms_service.model.Order;
+import com.ifs.oms_service.model.Order;
 
 @Service
 public class OrderProducer {

@@ -1,4 +1,4 @@
-package com.IFS.oms_service.model;
+package com.ifs.oms_service.model;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

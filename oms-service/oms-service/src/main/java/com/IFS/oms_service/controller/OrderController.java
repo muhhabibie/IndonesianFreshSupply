@@ -1,4 +1,4 @@
-package com.IFS.oms_service.controller;
+package com.ifs.oms_service.controller;
 
 import java.util.UUID;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.IFS.oms_service.model.Order;
-import com.IFS.oms_service.producer.OrderProducer;
+import com.ifs.oms_service.model.Order;
+import com.ifs.oms_service.producer.OrderProducer;
 
 @RestController
 @RequestMapping("/api/orders")

@@ -1,4 +1,4 @@
-package com.IFS.payment_service;
+package com.ifs.payment_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

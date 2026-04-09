@@ -1,4 +1,4 @@
-package com.IFS.inventory_service.model;
+package com.ifs.inventory_service.model;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

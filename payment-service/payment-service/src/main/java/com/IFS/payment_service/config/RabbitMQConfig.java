@@ -1,4 +1,4 @@
-package com.IFS.payment_service.config;
+package com.ifs.payment_service.config;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,7 +23,7 @@ public class RabbitMQConfig {
         // Beritahu sistem: "Jika ada label dari OMS, tolong anggap itu model milik Payment"
         Map<String, Class<?>> idClassMapping = new HashMap<>();
         // PERHATIKAN BARIS DI BAWAH INI SUDAH DIUBAH KE payment_service
-        idClassMapping.put("com.IFS.oms_service.model.Order", com.IFS.payment_service.model.Order.class);
+        idClassMapping.put("com.IFS.oms_service.model.Order", com.ifs.payment_service.model.Order.class);
         typeMapper.setIdClassMapping(idClassMapping);
         
         converter.setJavaTypeMapper(typeMapper);

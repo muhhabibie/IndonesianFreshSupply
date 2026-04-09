@@ -1,4 +1,4 @@
-package com.IFS.oms_service.config;
+package com.ifs.oms_service.config;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
